@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Cabin+Condensed&family=Catamaran:wght@100&family=Courgette&family=Fira+Sans&family=Fredoka+One&family=Inter:wght@300&family=Leckerli+One&family=Montez&family=Pacifico&family=Philosopher&family=Poppins&family=Roboto+Condensed&family=Roboto:ital@0;1&family=Rubik&family=Signika+Negative:wght@300&family=Source+Sans+Pro&family=Ubuntu:wght@300;400&family=Varela+Round&family=Yanone+Kaffeesatz&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    margin: 0px;
+    padding: 0px;
+}
+
+.Navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    padding-top:.8rem;
+    padding-left: 8rem;
+    align-items: center;
+}
+
+.Navbar div a {
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+    padding: .8rem ;
+    font-style: normal;
+    font-weight: 500;
+    align-items: center;
+}
+
+.Navbar div a:hover {
+    color: #9155FD;
+}
+
+@media screen and (max-width:800px) {
+    .Navbar {
+        padding-left: 2rem;
+        align-items: center;
+    }
+}

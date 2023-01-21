@@ -1,0 +1,18 @@
+.formsContainer {
+    padding-left: 8rem;
+    padding-top: 3rem;
+}
+
+.subforms {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+
+@media screen and (max-width:800px) {
+
+    .formsContainer {
+        padding-left: 2rem;
+        padding-top: 3rem;
+    }
+}

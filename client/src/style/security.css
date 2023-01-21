@@ -1,0 +1,20 @@
+
+.PassImg{
+    display: flex;
+    flex-direction: row;
+    padding-left: 8rem;
+    padding-top: 2rem;
+    gap: 6rem;
+}
+
+.inputPass{
+    display: grid;
+}
+
+.auth{
+    padding-left: 8rem;
+}
+
+.para span {
+  font-size: 14px;
+}

@@ -1,0 +1,86 @@
+.account {
+    margin-top: .1rem;
+}
+
+.imgSection {
+    display: flex;
+    flex-direction: row;
+    padding-top: 2rem;
+    padding-left: 10rem;
+    padding-bottom: 2rem;
+    gap: 2rem;
+}
+
+.butText {
+    padding-top: 1rem;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.buttons .btn {
+    background: #9155FD;
+    font-size: 14px;
+    color: white;
+}
+
+.buttons .btnsec {
+    font-size: 14px;
+    color: white;
+    border: 1px solid;
+    color: #FF4C51;
+    background: transparent;
+    padding: .3rem .8rem;
+    border-radius: .3rem;
+}
+
+.butText small {
+    font-size: 12px;
+}
+
+.forms {
+    padding-left: 8rem;
+}
+
+.row {
+    margin: auto;
+}
+
+.buttonsecond {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    padding-left: 9rem;
+}
+
+.buttonsecond .btn {
+    background: #9155FD;
+    font-size: 14px;
+    color: white;
+    padding: .5rem 1.5rem;
+}
+
+.buttonsecond .btnsec {
+    font-size: 14px;
+    color: white;
+    border: 1px solid;
+    color: rgb(99, 99, 99);
+    background: transparent;
+    padding: .5rem 1.5rem;
+    border-radius: .3rem;
+}
+
+@media screen and (max-width:800px) {
+    .forms {
+        padding-left: 2rem;
+    }
+    .imgSection {
+        padding-left: 3rem;
+    }
+    .buttonsecond {
+        padding-left: 3rem;
+    }
+}
